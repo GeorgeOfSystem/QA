@@ -12,9 +12,9 @@ import java.util.List;
 @RunWith(value= Parameterized.class)
 public class GradeTest {
     private int grade;
-    private boolean expectedResult;
+    private String expectedResult;
 
-    public GradeTest(int grade, boolean expectedResult){
+    public GradeTest(int grade, String expectedResult){
         this.grade = grade;
         this.expectedResult = expectedResult;
     }
